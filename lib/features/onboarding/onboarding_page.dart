@@ -33,10 +33,10 @@ class OnboardingPage extends StatelessWidget {
                   children: [
                     Text("Spend Smarter",
                         style: AppTextStyles.mediumText
-                            .copyWith(color: AppColors.greenlightTwo)),
+                            .copyWith(color: AppColors.greenLightTwo)),
                     Text("Save More",
                         style: AppTextStyles.mediumText
-                            .copyWith(color: AppColors.greenlightTwo)),
+                            .copyWith(color: AppColors.greenLightTwo)),
                     Padding(
                       padding: const EdgeInsets.all(16.0),
                       child:
@@ -46,13 +46,13 @@ class OnboardingPage extends StatelessWidget {
                       Text(
                           "Already have an account?",
                           style: AppTextStyles.smallText.copyWith(
-                              color: AppColors.grey
+                              color: AppColors.darkGrey
                           )
                       ),
                       Text(
                           "Sign In",
                           style: AppTextStyles.smallText.copyWith(
-                              color: AppColors.greenlightTwo
+                              color: AppColors.greenLightTwo
                           )
                       ),
                     ], onPressed: (){},),

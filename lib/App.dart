@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mono_financeiro/common/themes/default_theme.dart';
 import 'package:mono_financeiro/features/onboarding/onboarding_page.dart';
 import 'package:mono_financeiro/features/sign_up/sign_up_page.dart';
 import 'package:mono_financeiro/features/splash/splash_page.dart';
